@@ -1,0 +1,3 @@
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('poor_crackercow_hide', 'Poor Cracker Cow Hide', -1, 1, 'item_standard', 0);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('good_crackercow_hide', 'Good Cracker Cow Hide', -1, 1, 'item_standard', 0);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('perfect_crackercow_hide', 'Perfect Cracker Cow Hide', -1, 1, 'item_standard', 0);
