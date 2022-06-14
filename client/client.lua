@@ -41,12 +41,14 @@ Citizen.CreateThread(function()
 				item = 'good_bighornram_hide'
 				name = 'Good Big Horn Ram Hide'
 				-- exports['qbr-core']:Notify(8, 'Big Horn Ram Hide', 5000, name, 'satchel_textures', 'provision_ram_hide', 'COLOR_WHITE')
+                TriggerEvent('vorp:ShowAdvancedRightNotification', "Big Horn Ram Hide", "satchel_textures", "tick", "COLOR_PURE_WHITE", 4000)
 				TriggerServerEvent("fists_hunting:server:storepelt", item)
 				DeleteThis(entity)
 			elseif carriedEntityHash == 1795984405 then
 				item = 'perfect_bighornram_hide'
 				name = 'Perfect Big Horn Ram Hide'
 				-- exports['qbr-core']:Notify(8, 'Big Horn Ram Hide', 5000, name, 'satchel_textures', 'provision_ram_hide', 'COLOR_WHITE')
+                TriggerEvent('vorp:ShowAdvancedRightNotification', "Big Horn Ram Hide", "satchel_textures", "tick", "COLOR_PURE_WHITE", 4000)
 				TriggerServerEvent("fists_hunting:server:storepelt", item)
 				DeleteThis(entity)
 				
@@ -54,13 +56,16 @@ Citizen.CreateThread(function()
 			elseif carriedEntityHash == 1248540072 then
 				item = 'poor_boar_skin'
 				name = 'Poor Boar Skin'
+	--			barname =  'Boar Skin'
 				-- exports['qbr-core']:Notify(8, 'Boar Skin', 5000, name, 'satchel_textures', 'provision_boar_skin', 'COLOR_WHITE')
+                TriggerEvent('vorp:ShowAdvancedRightNotification', "Boar Skin", "satchel_textures", "tick", "COLOR_PURE_WHITE", 4000)
 				TriggerServerEvent("fists_hunting:server:storepelt", item)
 				DeleteThis(entity)
 			elseif carriedEntityHash == -1858513856 then
 				item = 'perfect_boar_skin'
 				name = 'Perfect Boar Skin'
 				-- exports['qbr-core']:Notify(8, 'Boar Skin', 5000, name, 'satchel_textures', 'provision_boar_skin', 'COLOR_WHITE')
+                TriggerEvent('vorp:ShowAdvancedRightNotification', "Boar Skin", "satchel_textures", "tick", "COLOR_PURE_WHITE", 4000)
 				TriggerServerEvent("fists_hunting:server:storepelt", item)
 				DeleteThis(entity)
 				
@@ -69,18 +74,21 @@ Citizen.CreateThread(function()
 				item = 'poor_buck_fur'
 				name = 'Poor Buck Fur'
 				-- exports['qbr-core']:Notify(8, 'Buck Fur', 5000, name, 'satchel_textures', 'provision_buck_fur', 'COLOR_WHITE')
+                TriggerEvent('vorp:ShowAdvancedRightNotification', "Buck Fur", "satchel_textures", "tick", "COLOR_PURE_WHITE", 4000)
 				TriggerServerEvent("fists_hunting:server:storepelt", item)
 				DeleteThis(entity)
 			elseif carriedEntityHash == -868657362 then
 				item = 'good_buck_fur'
 				name = 'Good Buck Fur'
 				-- exports['qbr-core']:Notify(8, 'Buck Fur', 5000, name, 'satchel_textures', 'provision_buck_fur', 'COLOR_WHITE')
+                TriggerEvent('vorp:ShowAdvancedRightNotification', "Buck Fur", "satchel_textures", "tick", "COLOR_PURE_WHITE", 4000)
 				TriggerServerEvent("fists_hunting:server:storepelt", item)
 				DeleteThis(entity)
 			elseif carriedEntityHash == -702790226 then
 				item = 'perfect_buck_fur'
 				name = 'Perfect Buck Fur'
 				-- exports['qbr-core']:Notify(8, 'Buck Fur', 5000, name, 'satchel_textures', 'provision_buck_fur', 'COLOR_WHITE')
+                TriggerEvent('vorp:ShowAdvancedRightNotification', "Buck Fur", "satchel_textures", "tick", "COLOR_PURE_WHITE", 4000)
 				TriggerServerEvent("fists_hunting:server:storepelt", item)
 				DeleteThis(entity)
 				
