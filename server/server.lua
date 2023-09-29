@@ -6,5 +6,5 @@ end)
 RegisterNetEvent("fists_hunting:server:storepelt")
 AddEventHandler("fists_hunting:server:storepelt", function(item)
 	local _source = source
-    exports.vorp_inventory:addItem(source, item, amount, callback,metadata)
+    exports.vorp_inventory:addItem(_source, item, 1, function() end, {})
 end)
