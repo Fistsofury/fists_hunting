@@ -1,3 +1,8 @@
+VORPcore = {}
+TriggerEvent("getCore", function(core)
+    VORPcore = core
+end)
+
 Citizen.CreateThread(function()
     while true do
         Wait(1000)
@@ -14,7 +19,7 @@ Citizen.CreateThread(function()
             
             TriggerEvent('vorp:ShowAdvancedRightNotification', name, "satchel_textures", "tick", "COLOR_PURE_WHITE", 4000)
             TriggerServerEvent("fists_hunting:server:storepelt", item)
-            DeleteThis(entity)
+            DeleteEntity(entity)
         end
     end
 end)
