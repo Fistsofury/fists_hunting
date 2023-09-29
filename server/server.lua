@@ -1,7 +1,10 @@
-VORP = exports.vorp_inventory:vorp_inventoryApi()
+local VORPcore = {}
+TriggerEvent("getCore", function(core)
+    VORPcore = core
+end)
 
 RegisterNetEvent("fists_hunting:server:storepelt")
 AddEventHandler("fists_hunting:server:storepelt", function(item)
 	local _source = source
-    VORP.addItem(_source, item, 1)
+    exports.vorp_inventory:addItem(source, item, amount, callback,metadata)
 end)
