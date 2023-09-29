@@ -6,7 +6,7 @@ A hunting script that supplied pelts based on the star rating of the animal you 
 2 star = Good
 3 start = Perfect
 
-Once the animla is skinned the pelt is removed from the players hand getting rid of the annoying blip and adding the item to the players inventory.
+Once the animal is skinned the pelt is removed from the players hand getting rid of the annoying blip and adding the item to the players inventory.
 
 
 To Do
