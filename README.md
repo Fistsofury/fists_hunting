@@ -10,7 +10,7 @@ Once the animal is skinned the pelt is removed from the players hand adding it t
 
 Domestics animals are not included, such as cows, sheep, pigs etc.
 
-Config.lua explained.
+# Config.lua explained.
 
 config.debug = true, This will print the hashes configured in the client lua to the console
 config.debug = false, Wont print anything.
@@ -18,12 +18,12 @@ config.pelts, all the pelts that this script will see and delete if its in your 
 
 
 
-To Do
+# To Do
 
 -add a NPC buyer of skins although configurable in most store scripts already.
 -add additional rewards for good/perfect pelts, maybe add a chance reward.
 
-Credits
+# Credits
 Rexshack - rsg-trapperplus, original script was inspired by a version of RSG_holding https://github.com/Rexshack-RedM/rsg-trapperplus
 Elzetia - feather-trapper & Advice  https://github.com/FeatherFramework/feather-trapper
 
