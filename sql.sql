@@ -1,5 +1,6 @@
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`)
 VALUES
+-- Existing item data
     ('poor_bear_pelt', 'Poor Bear pelt', 5, 1, 'item_standard', 0),
     ('good_bear_pelt', 'Good Bear pelt', 5, 1, 'item_standard', 0),
     ('perfect_bear_pelt', 'Perfect Bear pelt', 5, 1, 'item_standard', 0),
@@ -31,4 +32,16 @@ VALUES
     ('perfect_redfox_pelt', 'Perfect Redfox pelt', 5, 1, 'item_standard', 0),
     ('poor_pronghorn_pelt', 'Poor Pronghorn pelt', 5, 1, 'item_standard', 0),
     ('good_pronghorn_pelt', 'Good Pronghorn pelt', 5, 1, 'item_standard', 0),
-    ('perfect_pronghorn_pelt', 'Perfect Pronghorn pelt', 5, 1, 'item_standard', 0);
+    ('perfect_pronghorn_pelt', 'Perfect Pronghorn pelt', 5, 1, 'item_standard', 0),
+    ('poor_cougar_pelt', 'Poor Cougar pelt', 5, 1, 'item_standard', 0),
+    ('good_cougar_pelt', 'Good Cougar pelt', 5, 1, 'item_standard', 0),
+    ('perfect_cougar_pelt', 'Perfect Cougar pelt', 5, 1, 'item_standard', 0),
+    ('poor_panther_pelt', 'Poor Panther pelt', 5, 1, 'item_standard', 0),
+    ('good_panther_pelt', 'Good Panther pelt', 5, 1, 'item_standard', 0),
+    ('perfect_panther_pelt', 'Perfect Panther pelt', 5, 1, 'item_standard', 0),
+    ('poor_beaver_pelt', 'Poor Beaver pelt', 5, 1, 'item_standard', 0),
+    ('good_beaver_pelt', 'Good Beaver pelt', 5, 1, 'item_standard', 0),
+    ('perfect_beaver_pelt', 'Perfect Beaver pelt', 5, 1, 'item_standard', 0),
+    ('poor_bull_pelt', 'Poor Bull pelt', 5, 1, 'item_standard', 0),
+    ('good_bull_pelt', 'Good Bull pelt', 5, 1, 'item_standard', 0),
+    ('perfect_bull_pelt', 'Perfect Bull pelt', 5, 1, 'item_standard', 0);
