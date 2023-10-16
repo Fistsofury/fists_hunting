@@ -3,6 +3,7 @@ TriggerEvent("getCore", function(core)
     VORPcore = core
 end)
 
+
 Citizen.CreateThread(function()
     while true do
         Wait(1000)
@@ -23,23 +24,29 @@ Citizen.CreateThread(function()
                 if pelthash == peltsData.pelthash then
                     local name = peltsData.name
                     local item = peltsData.item
+                    local item2 = peltsData.item2
+                    local item3 = peltsData.item3
                     local deleted = DeleteThis(carriedpelt)
-                    
+
                     if Config.debug then
                         print("Deleted pelt:", deleted)  -- Debug print
                     end
-                    
+
                     TriggerEvent('vorp:ShowAdvancedRightNotification', name, "satchel_textures", "tick", "COLOR_PURE_WHITE", 4000)
                     TriggerServerEvent("fists_hunting:server:storepelt", item)
 
                     if Config.debug then
                         print("Stored pelt item:", item)  -- Debug print
                     end
+
+                    -- Additional Rewards
+                    TriggerServerEvent("fists_hunting:server:additionalRewards", ped, item2, item3)
                 end
             end
         end
     end
 end)
+
 
 function DeleteThis(holding)
     NetworkRequestControlOfEntity(holding)

@@ -42,6 +42,12 @@ VALUES
     ('poor_beaver_pelt', 'Poor Beaver pelt', 5, 1, 'item_standard', 0),
     ('good_beaver_pelt', 'Good Beaver pelt', 5, 1, 'item_standard', 0),
     ('perfect_beaver_pelt', 'Perfect Beaver pelt', 5, 1, 'item_standard', 0),
+    ('poor_aligator_pelt', 'Poor Aligator pelt', 5, 1, 'item_standard', 0),
+    ('good_aligator_pelt', 'Good Aligator pelt', 5, 1, 'item_standard', 0),
+    ('perfect_aligator_pelt', 'Perfect Aligator pelt', 5, 1, 'item_standard', 0),
+    ('poor_moose_pelt', 'Poor Moose pelt', 5, 1, 'item_standard', 0),
+    ('good_moose_pelt', 'Good Moose pelt', 5, 1, 'item_standard', 0),
+    ('perfect_moose_pelt', 'Perfect Moose pelt', 5, 1, 'item_standard', 0),
     ('poor_bull_pelt', 'Poor Bull pelt', 5, 1, 'item_standard', 0),
     ('good_bull_pelt', 'Good Bull pelt', 5, 1, 'item_standard', 0),
     ('perfect_bull_pelt', 'Perfect Bull pelt', 5, 1, 'item_standard', 0);
